@@ -1,0 +1,9 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+87.975,-81.625,180.0,top,C1,,,C_0603_1608Metric,0.1uF,smt
+79.725,-80.75,90.0,bottom,C2,,,C_0603_1608Metric,0.1uF,smt
+87.975,-78.575,180.0,top,C3,,,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,22uF,smt
+80.3,-80.05,0.0,top,D1,,,LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm,SK6812,smt
+95.7,-80.05,0.0,top,D2,,,LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm,SK6812,smt
+82.325,-78.52,90.0,bottom,D3,,,C_0402_1005Metric,RL0402E005M300K,smt
+87.95,-80.453704,180.0,bottom,J1,C225126,,CONN_SM03B-GHS-TBLFSN_JST,SM03B-GHS-TBLFSN,smt
+78.32,-78.38,180.0,bottom,R1,,,R_0603_1608Metric,330R,smt

@@ -1,0 +1,14 @@
+# Keep KiCad and CSV text files with LF endings
+*.kicad_pro text eol=lf
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.csv       text eol=lf
+*.md        text eol=lf
+
+# Binary / large files
+*.step binary
+*.stp  binary
+*.stl  binary
+*.zip  binary
+*.jpg  binary
+*.png  binary

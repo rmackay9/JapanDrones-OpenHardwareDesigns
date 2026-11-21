@@ -1,0 +1,14 @@
+# KiCad local/temporary files
+*.kicad_prl
+*-backups/
+fp-info-cache
+~*.lck
+_autosave-*
+*.bak
+\#auto_saved_files#
+fabrication-toolkit-options.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,7 @@
+Designator,Qty,Value,Description,Package,Manufacturer,MPN,Alternate (Manufacturer MPN),LCSC,Notes
+"C1,C2",2,100nF,"Ceramic capacitor, 50V, X7R, 10%",0603,YAGEO,CC0603KRX7R9BB104,,C14663,Any 100nF 0603 X7R rated 16V or higher
+C3,1,22uF,"Ceramic capacitor, 10V, 10%",1206,Fenghua (FH),1206X226K100NT,,C1859,Any 22uF 1206 X5R/X7R rated 10V or higher
+"D1,D2",2,SK6812,"Addressable RGB LED with integrated controller, 5050",PLCC-4 5.0x5.0mm,OPSCO,SK6812,,C5378720,"Moisture sensitive: bake before reflow"
+D3,1,RL0402E005M300K,"Bidirectional TVS diode, 5V working, 25V clamp (data line protection)",0402,Ruilon,RL0402E005M300K,,C20950,
+J1,1,SM03B-GHS-TB(LF)(SN),"JST-GH 3 pin 1.25mm pitch right angle SMD header",JST GH SMD 3P,JST,SM03B-GHS-TB(LF)(SN),CJT A1257WR-S-3P,C225126,PCBWay fitted the CJT equivalent
+R1,1,330R,"Resistor, 1%, 1/10W",0603,UNI-ROYAL,0603WAF3300T5E,,C23138,Any 330R 0603
