@@ -4,6 +4,10 @@
 
 Two small RGB LED boards used on the JapanDrones aerial photography copter.
 
+| Round, top | Round, bottom | Rectangular, top | Rectangular, bottom |
+|---|---|---|---|
+| ![](round/docs/JapanDrones_LED_circ_V3-top.png) | ![](round/docs/JapanDrones_LED_circ_V3-bottom.png) | ![](rect/docs/JapanDrones_LED_rect_V4-top.png) | ![](rect/docs/JapanDrones_LED_rect_V4-bottom.png) |
+
 | Board | Folder | Size | Use |
 |---|---|---|---|
 | Round (V3) | [round/](round/) | 25 mm diameter | Mounted under each motor at the end of the arms |
@@ -27,6 +31,7 @@ They work with ArduPilot's NeoPixel / SK6812 LED support (e.g. `SERVOx_FUNCTION`
 | `fab/positions.csv` | Pick and place (a.k.a. centroid or CPL) file: the X/Y position, rotation and side of each part, used by the assembly machine |
 | `3d/*.step` | 3D model of the assembled board for mechanical CAD (Fusion 360, FreeCAD, SolidWorks, ...) |
 | `3d/*.stl` | Mesh of the assembled board. Click it on GitHub to view it in 3D |
+| `docs/*.png` | KiCad renders of the top and bottom of the board |
 
 ## Ordering
 
