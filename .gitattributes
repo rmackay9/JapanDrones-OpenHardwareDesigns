@@ -1,14 +1,20 @@
-# Keep KiCad and CSV text files with LF endings
-*.kicad_pro text eol=lf
-*.kicad_sch text eol=lf
-*.kicad_pcb text eol=lf
-*.csv       text eol=lf
-*.md        text eol=lf
+# Always use Linux (LF) line endings, in the repo and in working copies,
+# whatever the OS or the user's core.autocrlf setting
+* text=auto eol=lf
 
-# Binary / large files
+# Binary files: never touch line endings or diff as text
 *.step binary
 *.stp  binary
+*.STEP binary
 *.stl  binary
+*.3mf  binary
+*.f3d  binary
 *.zip  binary
+*.xls  binary
+*.xlsx binary
+*.pdf  binary
 *.jpg  binary
+*.jpeg binary
 *.png  binary
+*.mp4  binary
+*.mov  binary
