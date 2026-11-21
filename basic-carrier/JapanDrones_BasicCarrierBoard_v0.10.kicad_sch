@@ -1,0 +1,1349 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b")
+	(paper "A4")
+	(title_block
+		(title "BasicCarrierBoard")
+		(date "2026-09-25")
+		(rev "v0.10")
+		(company "Japan Drones")
+		(comment 1 "Designed by : ${Designer}")
+	)
+	(lib_symbols
+		(symbol "SparkFun-Resistor:10_1206"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Resistor:R_1206_3216Metric"
+				(at 0 -4.572 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PROD_ID" "RES-08705"
+				(at 0 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "0.25W"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "10_1206_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10_1206_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Rules for CAN BUS \na) Termination resisotr on edge devices only\nb) daisychain"
+		(exclude_from_sim no)
+		(at 23.368 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28724cba-e467-4dca-be48-fa86ccea6afc")
+	)
+	(junction
+		(at 190.5 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02a1bc48-ad68-41b8-a805-e8078b1ea04c")
+	)
+	(junction
+		(at 40.64 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2966e4b3-692a-4cfd-a696-8f668c706573")
+	)
+	(junction
+		(at 86.36 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7279af69-12b6-4ec1-a4df-4b8d32d2562b")
+	)
+	(junction
+		(at 91.44 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "960c3092-ff8d-4c2a-85c4-5ec55827e155")
+	)
+	(junction
+		(at 142.24 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b884d4d-8833-4b11-a6cc-9e241b98da55")
+	)
+	(junction
+		(at 137.16 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdd244e3-19ef-46d5-856e-00ced2511d96")
+	)
+	(junction
+		(at 195.58 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef6071a2-068a-4884-a437-8036a9058ba4")
+	)
+	(junction
+		(at 35.56 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efceb104-0abf-482d-b295-41535fc25757")
+	)
+	(wire
+		(pts
+			(xy 190.5 50.8) (xy 190.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0299f378-45be-4c7e-8c0b-5dd5dca44e9d")
+	)
+	(wire
+		(pts
+			(xy 86.36 60.96) (xy 137.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111c049a-5c9d-4042-bf58-628b26bd5df4")
+	)
+	(wire
+		(pts
+			(xy 142.24 50.8) (xy 142.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115d2442-841a-421d-a276-f60ec32dae40")
+	)
+	(wire
+		(pts
+			(xy 259.08 66.04) (xy 259.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135b38ad-2b27-4e38-82a1-e168e7c1eb04")
+	)
+	(wire
+		(pts
+			(xy 261.62 66.04) (xy 261.62 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dcabdf8-8820-4976-8d0a-9ba7ede2f953")
+	)
+	(wire
+		(pts
+			(xy 40.64 55.88) (xy 91.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203eb08f-46a4-4e25-8928-dc452daef791")
+	)
+	(wire
+		(pts
+			(xy 236.22 71.12) (xy 205.74 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8d7d90-c2f5-470f-abf2-c97ef6f4e4b4")
+	)
+	(wire
+		(pts
+			(xy 231.14 76.2) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1fa541-84fe-44fb-81a2-8ae9c9182b15")
+	)
+	(wire
+		(pts
+			(xy 220.98 88.9) (xy 220.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4134b3-595a-48c6-b296-d672ab1bd337")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 91.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425b37f1-6e1a-4f39-98ee-eda2e2b555ac")
+	)
+	(wire
+		(pts
+			(xy 35.56 60.96) (xy 86.36 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433e2fd9-d8fa-4eb4-908e-561e0f84eadf")
+	)
+	(wire
+		(pts
+			(xy 243.84 78.74) (xy 243.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47dd4a72-99aa-44f7-af6a-65c4e03bb552")
+	)
+	(wire
+		(pts
+			(xy 251.46 66.04) (xy 251.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff095a6-c9a9-4f77-91ec-4d53e7d50685")
+	)
+	(wire
+		(pts
+			(xy 91.44 55.88) (xy 142.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5365971e-089d-4434-9b32-533faed6519d")
+	)
+	(wire
+		(pts
+			(xy 142.24 55.88) (xy 195.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54258479-5d7f-4975-85d8-c9a5ceddeb0f")
+	)
+	(wire
+		(pts
+			(xy 266.7 66.04) (xy 266.7 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56cbd7fa-7566-4611-bcba-c3bd75f8294f")
+	)
+	(wire
+		(pts
+			(xy 203.2 60.96) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "581a46c7-6106-4380-9f7f-8765921f5d15")
+	)
+	(wire
+		(pts
+			(xy 40.64 55.88) (xy 40.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fdbbc8-7647-436a-bef7-da9f1a9892ea")
+	)
+	(wire
+		(pts
+			(xy 35.56 58.42) (xy 35.56 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "799eac19-182e-4d14-bc6d-b4e7b145d06b")
+	)
+	(wire
+		(pts
+			(xy 254 66.04) (xy 254 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86498505-8a03-4fb1-9cff-c482870d72f8")
+	)
+	(wire
+		(pts
+			(xy 203.2 60.96) (xy 190.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875420c7-d956-4492-a09d-67bec571708c")
+	)
+	(wire
+		(pts
+			(xy 236.22 66.04) (xy 236.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dce18e3-8cf4-436b-ac45-743714b2f945")
+	)
+	(wire
+		(pts
+			(xy 220.98 78.74) (xy 243.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ae8826-8857-4d21-8432-c6873cea6f17")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 137.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "974b9c15-af94-4167-9e14-1b85441620a1")
+	)
+	(wire
+		(pts
+			(xy 86.36 50.8) (xy 86.36 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64560f2-c542-4e51-9600-8f745527a312")
+	)
+	(wire
+		(pts
+			(xy 205.74 55.88) (xy 195.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93881fb-03e9-4cec-b598-ee325f279a39")
+	)
+	(wire
+		(pts
+			(xy 205.74 71.12) (xy 205.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6a54fa-beed-4277-89c9-82ba7a4eac8d")
+	)
+	(wire
+		(pts
+			(xy 195.58 50.8) (xy 195.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4504a0-f532-434d-8bf9-dc022ae0b6e9")
+	)
+	(wire
+		(pts
+			(xy 210.82 88.9) (xy 220.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e226cb6a-28e6-415b-9545-213a12081162")
+	)
+	(wire
+		(pts
+			(xy 231.14 66.04) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e409515f-d921-4fc1-8f7c-b16a787f33ea")
+	)
+	(wire
+		(pts
+			(xy 40.64 50.8) (xy 40.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea677e5b-fd01-4770-a3c4-fb9b044a4532")
+	)
+	(wire
+		(pts
+			(xy 137.16 60.96) (xy 190.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e40bbb-245d-4fbf-9ee3-711236e57089")
+	)
+	(wire
+		(pts
+			(xy 35.56 50.8) (xy 35.56 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9096f7-7ecb-41d8-8eee-b131e1d92f22")
+	)
+	(symbol
+		(lib_id "SparkFun-Resistor:10_1206")
+		(at 38.1 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e2db227-2081-4790-bc4d-3ce096eed043")
+		(property "Reference" "R122"
+			(at 44.196 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R"
+			(at 44.196 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Resistor:R_1206_3216Metric"
+			(at 38.1 62.992 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 38.1 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "RES-08705"
+			(at 38.1 65.278 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.25W"
+			(at 38.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" ""
+			(at 38.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 38.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 38.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PRICE" ""
+			(at 38.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PURCHASE-URL" ""
+			(at 38.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "COPYRIGHT" ""
+			(at 38.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 38.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR_NAME" ""
+			(at 38.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17909"
+			(at 38.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "UNI-ROYAL(Uniroyal Elec)"
+			(at 38.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1206W4F1200T5E"
+			(at 38.1 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34f9b48a-7722-49c7-b029-814d3cdaff71")
+		)
+		(pin "1"
+			(uuid "4f6cf8bb-746e-4490-9609-15c48a0e42bc")
+		)
+		(instances
+			(project "JapanDrones_BasicCarrierBoard_v0.10"
+				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b"
+					(reference "R122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 15.24)
+		(size 50.8 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2f5387ef-68e7-40aa-8d3b-75889bf313f3")
+		(property "Sheetname" "Connectors"
+			(at 228.6 14.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 256.286 13.462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_L_2" bidirectional
+			(at 236.22 66.04 270)
+			(uuid "35933ca0-d40d-4623-8cb2-ebdcdade82c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_H_2" bidirectional
+			(at 231.14 66.04 270)
+			(uuid "a5656f1d-7b9c-4479-9f0c-cf214d8b20b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POW_SEL" input
+			(at 259.08 66.04 270)
+			(uuid "0da8eefb-aab6-4415-a67d-8268762a6a61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" input
+			(at 251.46 66.04 270)
+			(uuid "90248a41-f039-4d5a-b273-ab3ef9d9b77d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D+" input
+			(at 254 66.04 270)
+			(uuid "8c833ddf-d09b-47c9-bdbd-69a645781ba8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_PWR" input
+			(at 266.7 66.04 270)
+			(uuid "3b4e1dcc-f625-440f-a3b5-3704552a8111")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_VALID" input
+			(at 261.62 66.04 270)
+			(uuid "ecd1e410-5f81-43aa-8350-663efb9f0d6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBATT_VALID" input
+			(at 243.84 66.04 270)
+			(uuid "d372a7d6-e29f-447b-bbad-b9a6d3c392fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "JapanDrones_BasicCarrierBoard_v0.10"
+				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5c0fad84-52fd-4f27-a1ba-caaff6cda231")
+		(property "Sheetname" "VimDrones_mod1"
+			(at 75.4884 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VimDrones_mod.kicad_sch"
+			(at 102.1846 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 91.44 50.8 270)
+			(uuid "0df991ae-04a0-4c17-befd-635062ab0b04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 86.36 50.8 270)
+			(uuid "4ae8da6e-5bf4-41db-8696-5baf04193f2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "JapanDrones_BasicCarrierBoard_v0.10"
+				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6ef01a4e-c8b4-4df0-b7c0-90a52d8409ca")
+		(property "Sheetname" "VimDrones_mod"
+			(at 24.6884 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VimDrones_mod.kicad_sch"
+			(at 51.3846 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 40.64 50.8 270)
+			(uuid "11f13d94-e995-4c21-a68e-1bb141c0c3ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 35.56 50.8 270)
+			(uuid "598cd7d2-27aa-4214-a4e9-caf9a3a25785")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "JapanDrones_BasicCarrierBoard_v0.10"
+				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 82.55)
+		(size 43.18 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "aee19005-dfc2-42dc-b558-0aa054f8f5c4")
+		(property "Sheetname" "USBSheet"
+			(at 231.14 81.8384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBSheet.kicad_sch"
+			(at 231.14 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D-_ESD" output
+			(at 251.46 82.55 90)
+			(uuid "b74f8bcc-499f-4f97-b389-592363069786")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D+_ESD" output
+			(at 254 82.55 90)
+			(uuid "fd6ab915-3ce5-4647-89cd-8daad47be78e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POWER_SEL" output
+			(at 259.08 82.55 90)
+			(uuid "5bed6fcd-f0ed-413c-a0a3-e4c28d096e3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_VALID" output
+			(at 261.62 82.55 90)
+			(uuid "3ae31d3d-8441-498d-b934-223ab0a4740e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_PWR" output
+			(at 266.7 82.55 90)
+			(uuid "b7eb445c-3377-4a2f-b663-ea2bfbf3c025")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "JapanDrones_BasicCarrierBoard_v0.10"
+				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b42ffa99-9f32-443b-bd6c-96d572da2e95")
+		(property "Sheetname" "VimDrones_mod2"
+			(at 126.2884 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VimDrones_mod.kicad_sch"
+			(at 152.9846 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 142.24 50.8 270)
+			(uuid "be917ff0-6a94-4a6e-969c-b1cccdaf73a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 137.16 50.8 270)
+			(uuid "241d367d-7798-4cf3-ac2a-2a36b41be5cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "JapanDrones_BasicCarrierBoard_v0.10"
+				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 84.455)
+		(size 50.8 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b96b80eb-0efd-43db-856f-23db5ec65ff0")
+		(property "Sheetname" "PowerSheet"
+			(at 160.02 83.7434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSheet.kicad_sch"
+			(at 160.02 125.6796 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBATT_VALID" output
+			(at 210.82 88.9 0)
+			(uuid "ecaf5504-6fb6-4615-9a60-13c9d043417f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "JapanDrones_BasicCarrierBoard_v0.10"
+				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c5169bf1-c685-4963-a713-ed44d16da3b5")
+		(property "Sheetname" "VimDrones_mod3"
+			(at 179.6284 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VimDrones_mod.kicad_sch"
+			(at 206.3246 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 195.58 50.8 270)
+			(uuid "da025a6d-4a1d-4e99-bd8b-31d2c78ce764")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 190.5 50.8 270)
+			(uuid "7d4263bd-0b3c-41d3-abf6-af5d43871ef2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "JapanDrones_BasicCarrierBoard_v0.10"
+				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
