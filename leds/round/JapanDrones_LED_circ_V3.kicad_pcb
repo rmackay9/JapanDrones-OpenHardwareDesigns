@@ -128,7 +128,7 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
+		(property "Description" "Bidirectional TVS diode, 5V working, 25V clamp, 0402"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -167,7 +167,20 @@
 				)
 			)
 		)
-		(property "MPN" "C20950"
+		(property "Manufacturer" "Ruilon"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c026330-5431-4ede-81df-7f2791477f81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RL0402E005M300K"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -373,7 +386,7 @@
 				)
 			)
 		)
-		(property "Description" "https://jlcpcb.com/parts/componentSearch?searchTxt=C14663"
+		(property "Description" "Ceramic capacitor, 100nF, 50V, X7R, 10%, 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -386,20 +399,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CAP-00810"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18b80fb4-47dd-4fb8-a7d4-7c1de0a59d49")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -412,7 +412,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "20%"
+		(property "Tolerance" "10%"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -438,7 +438,20 @@
 				)
 			)
 		)
-		(property "MPN" "C14663"
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9555d2b-148e-4fba-be44-dfaa2c07ed8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -641,7 +654,7 @@
 				)
 			)
 		)
-		(property "Description" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/SM03B-GHS-TB/807833"
+		(property "Description" "JST-GH 3 pin 1.25mm side entry SMD header"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -666,7 +679,7 @@
 				)
 			)
 		)
-		(property "MPN" "C225126"
+		(property "MPN" "SM03B-GHS-TB(LF)(SN)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -685,6 +698,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3904cc39-1de7-4df8-8c68-8a407758c14c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate" "CJT A1257WR-S-3P"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45956783-1034-4276-b156-eab367ec2ae3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c083f467-ca65-40f2-8638-9c98968204b2")
 			(effects
 				(font
 					(size 1 1)
@@ -959,7 +998,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 22uF, 10V, 10%, 1206"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -967,19 +1006,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PROD_ID" "CAP-00000"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f20eec43-81b2-46e4-90ea-a51a795f6b16")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -997,7 +1023,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "100%"
+		(property "Tolerance" "10%"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1023,7 +1049,20 @@
 				)
 			)
 		)
-		(property "MPN" "C1859"
+		(property "Manufacturer" "Fenghua (FH)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04a4bdf5-67c9-4acb-929b-056c9a5260da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "1206X226K100NT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1179,7 +1218,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "Addressable RGB LED with integrated controller, 5050 (moisture sensitive)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1205,7 +1244,20 @@
 				)
 			)
 		)
-		(property "MPN" "C5378720"
+		(property "Manufacturer" "OPSCO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e27b6e97-eb5b-4d48-b44e-d66db2c2285a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SK6812"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1509,7 +1561,7 @@
 				)
 			)
 		)
-		(property "Description" "https://jlcpcb.com/parts/componentSearch?searchTxt=C14663"
+		(property "Description" "Ceramic capacitor, 100nF, 50V, X7R, 10%, 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1522,20 +1574,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CAP-00810"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8aca4926-08e7-4dcd-9f63-e44a14a0c87f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1548,7 +1587,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "20%"
+		(property "Tolerance" "10%"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1574,7 +1613,20 @@
 				)
 			)
 		)
-		(property "MPN" "C14663"
+		(property "Manufacturer" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2ebc824-350d-417d-92e2-9ebcef26512c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1777,7 +1829,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "Addressable RGB LED with integrated controller, 5050 (moisture sensitive)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1803,7 +1855,20 @@
 				)
 			)
 		)
-		(property "MPN" "C5378720"
+		(property "Manufacturer" "OPSCO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b64a068-6098-4dc6-a90f-d0f074c2f005")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SK6812"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2108,7 +2173,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 330R, 1%, 0603"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2117,19 +2182,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PROD_ID" "RES-07856"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "15e8c66e-c75f-4179-be33-4c30b8c8f2ed")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2147,7 +2199,33 @@
 				)
 			)
 		)
-		(property "MPN" "C23138"
+		(property "Tolerance" "1%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61c5254c-d843-46ed-bb69-a545fa02d6dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2b734bd-7fff-4eee-86bc-3791ad0a4bbc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "0603WAF3300T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

@@ -2135,17 +2135,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor, 22uF, 10V, 10%, 1206"
 			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "CAP-00000"
-			(at 88.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2153,7 @@
 				(justify left)
 			)
 		)
-		(property "Tolerance" "100%"
+		(property "Tolerance" "10%"
 			(at 91.44 99.0662 0)
 			(effects
 				(font
@@ -2181,7 +2172,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C1859"
+		(property "Manufacturer" "Fenghua (FH)"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1206X226K100NT"
 			(at 88.9 95.25 0)
 			(effects
 				(font
@@ -2325,7 +2325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://jlcpcb.com/parts/componentSearch?searchTxt=C14663"
+		(property "Description" "Ceramic capacitor, 100nF, 50V, X7R, 10%, 0603"
 			(at 194.31 116.84 0)
 			(effects
 				(font
@@ -2334,16 +2334,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CAP-00810"
-			(at 191.77 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 174.498 123.19 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2354,7 +2345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "20%"
+		(property "Tolerance" "10%"
 			(at 177.8062 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -2374,7 +2365,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C14663"
+		(property "Manufacturer" "YAGEO"
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 175.26 116.84 90)
 			(effects
 				(font
@@ -2453,7 +2453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "Addressable RGB LED with integrated controller, 5050 (moisture sensitive)"
 			(at 179.07 93.98 0)
 			(effects
 				(font
@@ -2471,7 +2471,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C5378720"
+		(property "Manufacturer" "OPSCO"
+			(at 179.07 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK6812"
 			(at 179.07 93.98 0)
 			(effects
 				(font
@@ -2885,7 +2894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "Addressable RGB LED with integrated controller, 5050 (moisture sensitive)"
 			(at 212.09 93.98 0)
 			(effects
 				(font
@@ -2903,7 +2912,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C5378720"
+		(property "Manufacturer" "OPSCO"
+			(at 212.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK6812"
 			(at 212.09 93.98 0)
 			(effects
 				(font
@@ -3054,7 +3072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
+		(property "Description" "Bidirectional TVS diode, 5V working, 25V clamp, 0402"
 			(at 127 99.06 0)
 			(effects
 				(font
@@ -3081,7 +3099,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C20950"
+		(property "Manufacturer" "Ruilon"
+			(at 111.76 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RL0402E005M300K"
 			(at 111.76 99.06 90)
 			(effects
 				(font
@@ -3159,7 +3186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://jlcpcb.com/parts/componentSearch?searchTxt=C14663"
+		(property "Description" "Ceramic capacitor, 100nF, 50V, X7R, 10%, 0603"
 			(at 229.87 116.84 0)
 			(effects
 				(font
@@ -3168,16 +3195,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CAP-00810"
-			(at 227.33 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 210.058 123.19 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3188,7 +3206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "20%"
+		(property "Tolerance" "10%"
 			(at 213.3662 114.3 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3208,7 +3226,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C14663"
+		(property "Manufacturer" "YAGEO"
+			(at 210.82 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 210.82 116.84 90)
 			(effects
 				(font
@@ -3285,17 +3312,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor, 330R, 1%, 0603"
 			(at 123.19 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "RES-07856"
-			(at 123.19 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,7 +3330,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C23138"
+		(property "Tolerance" "1%"
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF3300T5E"
 			(at 123.19 92.71 0)
 			(effects
 				(font
@@ -3589,7 +3625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/SM03B-GHS-TB/807833"
+		(property "Description" "JST-GH 3 pin 1.25mm side entry SMD header"
 			(at 69.85 93.98 0)
 			(effects
 				(font
@@ -3598,7 +3634,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C225126"
+		(property "MPN" "SM03B-GHS-TB(LF)(SN)"
 			(at 69.85 93.98 0)
 			(effects
 				(font
@@ -3617,6 +3653,24 @@
 			)
 		)
 		(property "LCSC" "C225126"
+			(at 69.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate" "CJT A1257WR-S-3P"
+			(at 69.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
 			(at 69.85 93.98 0)
 			(effects
 				(font
