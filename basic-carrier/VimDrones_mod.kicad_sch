@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "BasicCarrierBoard")
-		(date "2026-09-25")
-		(rev "v0.10")
+		(date "2026-11-23")
+		(rev "v0.11")
 		(company "Japan Drones")
 		(comment 1 "Designed by : ${Designer}")
 	)

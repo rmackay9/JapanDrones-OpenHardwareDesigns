@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "BasicCarrierBoard")
-		(date "2026-09-25")
-		(rev "v0.10")
+		(date "2026-11-23")
+		(rev "v0.11")
 		(company "Japan Drones")
 		(comment 1 "Designed by : ${Designer}")
 	)
@@ -309,7 +309,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 71.12) (xy 205.74 71.12)
+			(xy 236.22 71.12) (xy 203.2 71.12)
 		)
 		(stroke
 			(width 0)
@@ -319,7 +319,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 76.2) (xy 203.2 76.2)
+			(xy 231.14 76.2) (xy 205.74 76.2)
 		)
 		(stroke
 			(width 0)
@@ -409,7 +409,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 60.96) (xy 203.2 76.2)
+			(xy 203.2 60.96) (xy 203.2 71.12)
 		)
 		(stroke
 			(width 0)
@@ -509,7 +509,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 71.12) (xy 205.74 55.88)
+			(xy 205.74 76.2) (xy 205.74 55.88)
 		)
 		(stroke
 			(width 0)

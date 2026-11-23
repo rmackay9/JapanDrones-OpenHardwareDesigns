@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "BasicCarrierBoard")
-		(date "2026-09-25")
-		(rev "v0.10")
+		(date "2026-11-23")
+		(rev "v0.11")
 		(company "Japan Drones")
 		(comment 1 "Designed by : ${Designer}")
 	)
@@ -17512,7 +17512,7 @@
 				)
 			)
 		)
-		(property "Value" "XT90PW-F"
+		(property "Value" "XT90PW-M"
 			(at 22.86 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17545,7 +17545,7 @@
 				)
 			)
 		)
-		(property "Description" "Socket, DC supply, XT90, female, PIN:2, on PCBs, THT"
+		(property "Description" "Plug, DC supply, XT90, male, PIN:2, on PCBs, THT. Mounted on BOTTOM side so + (flat side) lands on the VBATT pad"
 			(at 27.94 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -17629,7 +17629,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "XT90PW-F"
+		(property "MP" "XT90PW-M"
 			(at 27.94 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -17653,7 +17653,7 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC" "C3040690"
+		(property "LCSC" "C3040689"
 			(at 27.94 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -17752,7 +17752,7 @@
 				)
 			)
 		)
-		(property "MPN" "XT90PW-F30.G.Y"
+		(property "MPN" "XT90PW-M30.G.Y"
 			(at 27.94 26.67 0)
 			(hide yes)
 			(show_name no)
