@@ -886,7 +886,7 @@
 				(justify left)
 			)
 		)
-		(pin "VBUS_PWR" input
+		(pin "VBUS" input
 			(at 266.7 66.04 270)
 			(uuid "3b4e1dcc-f625-440f-a3b5-3704552a8111")
 			(effects
@@ -1134,7 +1134,7 @@
 				(justify right)
 			)
 		)
-		(pin "VBUS_PWR" output
+		(pin "VBUS" output
 			(at 266.7 82.55 90)
 			(uuid "b7eb445c-3377-4a2f-b663-ea2bfbf3c025")
 			(effects
