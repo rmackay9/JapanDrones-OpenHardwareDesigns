@@ -1,0 +1,9 @@
+#VRML V2.0 utf8
+# placeholder box sop_advance_5.00x5.00x0.95: 5.00 x 5.00 x 0.95 mm (approximate, generated)
+Shape {
+ appearance Appearance { material Material { diffuseColor 0.15 0.15 0.15 } }
+ geometry IndexedFaceSet {
+  coord Coordinate { point [ -0.9843 -0.9843 0.0000, 0.9843 -0.9843 0.0000, 0.9843 0.9843 0.0000, -0.9843 0.9843 0.0000, -0.9843 -0.9843 0.3740, 0.9843 -0.9843 0.3740, 0.9843 0.9843 0.3740, -0.9843 0.9843 0.3740 ] }
+  coordIndex [ 0 3 2 1 -1, 4 5 6 7 -1, 0 1 5 4 -1, 1 2 6 5 -1, 2 3 7 6 -1, 3 0 4 7 -1 ]
+ }
+}
