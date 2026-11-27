@@ -1,6 +1,6 @@
 # KiCad python: option A - MOSFET + motor-pad pitch 10 -> 8.5 mm in all four ESCs, board narrower.
-import sys, math, json
-sys.path.insert(0, r'SCRATCH')
+import os, sys, math, json
+sys.path.insert(0, os.environ.get('SCRATCH', os.path.dirname(os.path.abspath(__file__))))
 import pcbnew
 from router import connect
 b = pcbnew.LoadBoard(sys.argv[1])

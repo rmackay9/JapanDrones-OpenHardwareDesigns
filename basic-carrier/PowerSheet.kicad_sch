@@ -8772,7 +8772,7 @@
 			(uuid "0fb6867a-726e-4c21-90b8-9d2ee0efdbcc")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C22")
 					(unit 1)
@@ -9129,7 +9129,7 @@
 			(uuid "4908d43d-27e3-411d-9d5c-9f42949c76ca")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "D3")
 					(unit 1)
@@ -9332,7 +9332,7 @@
 			(uuid "774ec5e2-860e-4595-a250-195c198a56e4")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R42")
 					(unit 1)
@@ -9578,7 +9578,7 @@
 			(uuid "45431511-65ff-44fd-86eb-0ba50e8cf4fc")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C39")
 					(unit 1)
@@ -9814,7 +9814,7 @@
 			(uuid "0e2286a1-d358-4d7b-bbaf-f6bd7c7adbbb")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C36")
 					(unit 1)
@@ -10017,7 +10017,7 @@
 			(uuid "69243266-e892-4443-9537-756edfef3ebf")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R46")
 					(unit 1)
@@ -10095,7 +10095,7 @@
 			(uuid "bb611abc-c066-4b88-8935-84c562ddc64b")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR042")
 					(unit 1)
@@ -10297,7 +10297,7 @@
 			(uuid "fd6bf5f7-1e8d-4053-8e05-455ccb226a3d")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R47")
 					(unit 1)
@@ -10533,7 +10533,7 @@
 			(uuid "ed41e7fb-9fbb-4de3-a972-1a872c43ff12")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C35")
 					(unit 1)
@@ -10913,7 +10913,7 @@
 			(uuid "feabc12c-7ad5-46dc-b65b-d4870291f262")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C31")
 					(unit 1)
@@ -11116,7 +11116,7 @@
 			(uuid "f727109b-b49f-4317-868e-679e02ba64c9")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R41")
 					(unit 1)
@@ -11194,7 +11194,7 @@
 			(uuid "456f6367-83f5-493e-8fab-f84f8c26723d")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR041")
 					(unit 1)
@@ -11396,7 +11396,7 @@
 			(uuid "4f90153d-3b58-4eea-805b-a4718bbf3c47")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R125")
 					(unit 1)
@@ -11474,7 +11474,7 @@
 			(uuid "5be4bb19-c661-4c50-a9e6-8ba151216909")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR0202")
 					(unit 1)
@@ -11707,7 +11707,7 @@
 			(uuid "bbc04528-2248-4133-a414-a4009b7e9d3f")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "L2")
 					(unit 1)
@@ -11785,7 +11785,7 @@
 			(uuid "5c140dce-222c-4ee1-b4ff-112143190e31")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR0271")
 					(unit 1)
@@ -11987,7 +11987,7 @@
 			(uuid "b266fa53-21ff-4689-aa82-4eca67401fd5")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R27")
 					(unit 1)
@@ -12340,7 +12340,7 @@
 			(uuid "4748e144-d88d-4ca4-83e2-bf92368175ee")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "U6")
 					(unit 1)
@@ -12418,7 +12418,7 @@
 			(uuid "b0776c02-3b23-4809-a6a9-27ab02290ee3")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR045")
 					(unit 1)
@@ -12496,7 +12496,7 @@
 			(uuid "3994d7fa-43d3-48c4-b0b3-4f832832565e")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR065")
 					(unit 1)
@@ -12698,7 +12698,7 @@
 			(uuid "eb979eac-4364-4b8b-be90-ed29e2744701")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R28")
 					(unit 1)
@@ -12989,7 +12989,7 @@
 			(uuid "51ef33de-ab23-41ba-8c7d-ac49596fc8d8")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "D1")
 					(unit 1)
@@ -13067,7 +13067,7 @@
 			(uuid "ec76b851-dea2-4de2-af7d-1b135b2ca751")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR06")
 					(unit 1)
@@ -13145,7 +13145,7 @@
 			(uuid "a4da5ff5-dad2-4b57-8ca6-9e848d40c9ae")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR038")
 					(unit 1)
@@ -13357,7 +13357,7 @@
 			(uuid "22cefeeb-c517-4f94-bf89-040bce68b85d")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C25")
 					(unit 1)
@@ -13702,7 +13702,7 @@
 			(uuid "5c57af01-2f58-48fb-924a-b15befbed235")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R11")
 					(unit 1)
@@ -13948,7 +13948,7 @@
 			(uuid "2a52e41a-6640-4018-88fd-548047679876")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C38")
 					(unit 1)
@@ -14151,7 +14151,7 @@
 			(uuid "d4613f24-e1ec-418b-b62b-f9f746f2ac48")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R43")
 					(unit 1)
@@ -14229,7 +14229,7 @@
 			(uuid "f37ede4f-0bfd-48ae-9de1-36bd87fb55d2")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR0106")
 					(unit 1)
@@ -14307,7 +14307,7 @@
 			(uuid "1d9534ec-e0c2-41b6-a946-acfae97b86d2")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR043")
 					(unit 1)
@@ -14553,7 +14553,7 @@
 			(uuid "7a3897e3-ef3f-4d65-a310-5c2d8f0976b9")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C17")
 					(unit 1)
@@ -14755,7 +14755,7 @@
 			(uuid "d70bc8ce-fe49-4b8b-9d31-eed92dc223ab")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R48")
 					(unit 1)
@@ -14833,7 +14833,7 @@
 			(uuid "cbd144e3-8140-49b4-afc6-a0ba68287689")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR0206")
 					(unit 1)
@@ -15033,7 +15033,7 @@
 			(uuid "334c91ca-b3a6-4bdc-867b-3f27f3dff8bc")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "F2")
 					(unit 1)
@@ -15111,7 +15111,7 @@
 			(uuid "88ef545f-11fb-47d6-aded-2cdb44d43f93")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR015")
 					(unit 1)
@@ -15189,7 +15189,7 @@
 			(uuid "a6a0baa3-bd50-491f-b727-e997b21a15c6")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR050")
 					(unit 1)
@@ -15266,7 +15266,7 @@
 			(uuid "9f96b306-e13c-45dd-a99e-ab3eb9cdcff6")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR0156")
 					(unit 1)
@@ -15512,7 +15512,7 @@
 			(uuid "70fc6917-afa0-45a4-bd23-cb03d36f6181")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C40")
 					(unit 1)
@@ -15842,7 +15842,7 @@
 			(uuid "cc5556ab-0189-4e65-b71c-6c80c9714db9")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "U5")
 					(unit 1)
@@ -15999,7 +15999,7 @@
 			(uuid "8cc16ab0-7562-4c39-b4f5-f777560026bf")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R137")
 					(unit 1)
@@ -16077,7 +16077,7 @@
 			(uuid "c1b4c9f5-945c-40ba-96a7-76221edeed4b")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR046")
 					(unit 1)
@@ -16323,7 +16323,7 @@
 			(uuid "ef6a123c-f7d5-4ace-bc63-0d220965289a")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C114")
 					(unit 1)
@@ -16525,7 +16525,7 @@
 			(uuid "4486a40d-5705-48c8-a865-5495c4c3d47e")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R121")
 					(unit 1)
@@ -16603,7 +16603,7 @@
 			(uuid "312ae6be-e5a0-44b0-9b4e-8dc0e593a007")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR035")
 					(unit 1)
@@ -16757,7 +16757,7 @@
 			(uuid "cdd46130-46da-4410-bbab-5c73f7f391e3")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "Q28")
 					(unit 1)
@@ -16990,7 +16990,7 @@
 			(uuid "25dfa2f1-ca07-4fc1-b660-62f5d254ede3")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "L1")
 					(unit 1)
@@ -17068,7 +17068,7 @@
 			(uuid "7e24e7f2-fd30-4ca6-b27e-171c198c8b02")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR0270")
 					(unit 1)
@@ -17304,7 +17304,7 @@
 			(uuid "72941014-8343-4713-9518-79c9c07ed17a")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C111")
 					(unit 1)
@@ -17550,7 +17550,7 @@
 			(uuid "1fa1e5ca-bc56-4475-b1c9-80c88737f3bd")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C11")
 					(unit 1)
@@ -17881,7 +17881,7 @@
 			(uuid "bbae777f-8501-4246-b2ca-390104208ac8")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "U8")
 					(unit 1)
@@ -18175,7 +18175,7 @@
 			(uuid "d0bc6a0b-716b-4778-879a-5c8a41502a9b")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "J18")
 					(unit 1)
@@ -18253,7 +18253,7 @@
 			(uuid "56931e3d-fd02-4a72-8549-d8fd2a3106c4")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR037")
 					(unit 1)
@@ -18331,7 +18331,7 @@
 			(uuid "5adde319-f938-4913-af1f-ee026e0f05bb")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR036")
 					(unit 1)
@@ -18567,7 +18567,7 @@
 			(uuid "8debc40f-20e2-4104-8640-1184aa2ffaf2")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C30")
 					(unit 1)
@@ -18645,7 +18645,7 @@
 			(uuid "abfbe61f-38ab-4d74-89a1-11cf2066b438")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR022")
 					(unit 1)
@@ -18723,7 +18723,7 @@
 			(uuid "804a44f7-cae6-47f5-ac04-a570d441b6bb")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR0267")
 					(unit 1)
@@ -18935,7 +18935,7 @@
 			(uuid "5f1f13a5-866b-46f9-9d7e-d5eeb98e1948")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C37")
 					(unit 1)
@@ -19149,7 +19149,7 @@
 			(uuid "462418db-b050-498f-9f6d-b39a35c66b8f")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C112")
 					(unit 1)
@@ -19227,7 +19227,7 @@
 			(uuid "7a05176e-f2cc-447d-8710-b773ee10b12a")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR0266")
 					(unit 1)
@@ -19607,7 +19607,7 @@
 			(uuid "b2245b64-56e0-4df0-8aab-b535c378e598")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C32")
 					(unit 1)
@@ -19843,7 +19843,7 @@
 			(uuid "c88f7227-66b1-40f8-93ba-3c68479c2698")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C29")
 					(unit 1)
@@ -20089,7 +20089,7 @@
 			(uuid "81f4f337-ddec-4b09-9cb0-bb5f9a9455f1")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C10")
 					(unit 1)
@@ -20248,7 +20248,7 @@
 			(uuid "8080c8be-fbb6-4092-ad09-e4710579abc3")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R138")
 					(unit 1)
@@ -20451,7 +20451,7 @@
 			(uuid "98c4860f-c297-4f72-974a-b6dacc9b043d")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "R44")
 					(unit 1)
@@ -20529,7 +20529,7 @@
 			(uuid "45acfc0d-3e41-48fc-b622-807b73400cf5")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR018")
 					(unit 1)
@@ -20729,7 +20729,7 @@
 			(uuid "93e05bb9-0c90-4416-b80f-71aadfe815e1")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "F1")
 					(unit 1)
@@ -20975,7 +20975,7 @@
 			(uuid "9cf294fb-0454-4d98-be20-9f091a96b55a")
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "C113")
 					(unit 1)
@@ -21036,7 +21036,7 @@
 			)
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#FLG01")
 					(unit 1)
@@ -21097,7 +21097,7 @@
 			)
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR014")
 					(unit 1)
@@ -21158,7 +21158,7 @@
 			)
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR0216")
 					(unit 1)
@@ -21219,7 +21219,7 @@
 			)
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR0217")
 					(unit 1)
@@ -21280,7 +21280,7 @@
 			)
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR0236")
 					(unit 1)
@@ -21341,7 +21341,7 @@
 			)
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#FLG02")
 					(unit 1)
@@ -21402,7 +21402,7 @@
 			)
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#FLG03")
 					(unit 1)
@@ -21463,7 +21463,7 @@
 			)
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#FLG04")
 					(unit 1)
@@ -21524,7 +21524,7 @@
 			)
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR0280")
 					(unit 1)
@@ -21585,7 +21585,7 @@
 			)
 		)
 		(instances
-			(project "JapanDrones_BasicCarrierBoard_v0.10"
+			(project "JapanDrones_BasicCarrier"
 				(path "/1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b/b96b80eb-0efd-43db-856f-23db5ec65ff0"
 					(reference "#PWR0281")
 					(unit 1)

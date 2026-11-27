@@ -1,6 +1,6 @@
 # KiCad python: localbus.py board out x0,y0,x1,y1 net1,net2,...  - rip the nets inside the box, route all orders, keep best
-import sys, math, itertools
-sys.path.insert(0, r'SCRATCH')
+import os, sys, math, itertools
+sys.path.insert(0, os.environ.get('SCRATCH', os.path.dirname(os.path.abspath(__file__))))
 import pcbnew
 from router import Router
 mm = pcbnew.ToMM

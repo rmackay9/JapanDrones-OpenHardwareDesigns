@@ -11,3 +11,6 @@ _autosave-*
 # Generated outputs (fab outputs for each release are kept under fab/<version>/)
 *.step
 *.zip
+# ...except the fab outputs of each release
+!fab/**/*.zip
+__pycache__/

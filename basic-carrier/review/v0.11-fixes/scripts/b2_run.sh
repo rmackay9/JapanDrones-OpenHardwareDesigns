@@ -2,9 +2,9 @@
 # Re-applies all B2 steps on the B1 board (commit 0da7e29). Run from this folder with that board checked out;
 # the git checkout line below restores the board from HEAD, so only use it while HEAD is the B1 commit.
 set -e
-export MSYS_NO_PATHCONV=1; K="/c/Program Files/KiCad/10.0/bin"; BRD="$(cygpath -w ../../..)\JapanDrones_BasicCarrierBoard_v0.10.kicad_pcb"
+export MSYS_NO_PATHCONV=1; K="/c/Program Files/KiCad/10.0/bin"; BRD="$(cygpath -w ../../..)\JapanDrones_BasicCarrier.kicad_pcb"
 PY() { "$K/python.exe" "$@"; }
-git checkout -q ../../../JapanDrones_BasicCarrierBoard_v0.10.kicad_pcb
+git checkout -q ../../../JapanDrones_BasicCarrier.kicad_pcb
 PY reroute.py "$BRD" b2_esc1.json
 PY add_vias.py "$BRD" /VimDrones_mod1/MVDD 181.8,70.9,185.6,80.5 1.0 14 F.Cu,B.Cu 0.6 0.3 nopad
 PY add_vias.py "$BRD" /VimDrones_mod1/MVDD 162.2,65.5,185.5,70.4 1.0 14 F.Cu,B.Cu 0.6 0.3 nopad

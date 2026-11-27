@@ -1,6 +1,6 @@
 # KiCad python: repair.py board drc.json out  - local rip-up & re-route of the copper DRC complains about
-import sys, math, json, re
-sys.path.insert(0, r'SCRATCH')
+import os, sys, math, json, re
+sys.path.insert(0, os.environ.get('SCRATCH', os.path.dirname(os.path.abspath(__file__))))
 import pcbnew
 from router import Router
 b = pcbnew.LoadBoard(sys.argv[1]); mm = pcbnew.ToMM; MM = pcbnew.FromMM

@@ -1,5 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "2060smd") (type "KiCad") (uri "${KICAD_CUSTOM}/2060smd.pretty") (options "") (descr ""))
 	(lib (name "JapanDrones") (type "KiCad") (uri "${KIPRJMOD}/JapanDrones.pretty") (options "") (descr "Project footprints"))
 )
