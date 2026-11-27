@@ -1,4 +1,4 @@
-# Re-review cross-check: left VBATT strip width per layer. Run from review/v0.11-rereview/scripts (uses its cu.py) on dumps made by its dump.py.
+# Left VBATT strip: copper width per layer (F.Cu, In2, In3) along y. Usage: python strip.py TAG [TAG...]
 import sys, numpy as np
 from cu import *
 for tag in sys.argv[1:]:
