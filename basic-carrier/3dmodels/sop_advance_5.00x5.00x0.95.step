@@ -1,6 +1,6 @@
 ISO-10303-21;
 HEADER;
-FILE_DESCRIPTION(('placeholder box'),'2;1');
+FILE_DESCRIPTION(('placeholder'),'2;1');
 FILE_NAME('sop_advance_5.00x5.00x0.95.step','',(''),(''),'wrl_box_to_step.py','','');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
