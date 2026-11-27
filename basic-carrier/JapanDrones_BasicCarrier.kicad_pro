@@ -309,7 +309,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v0.10"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -558,7 +558,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "JapanDrones_BasicCarrierBoard_v0.10.kicad_pro",
+    "filename": "JapanDrones_BasicCarrier.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -596,7 +596,7 @@
       "netlist": "",
       "plot": "Gerbers/",
       "specctra_dsn": "",
-      "step": "JapanDrones_BasicCarrierBoard_v0.10.step",
+      "step": "JapanDrones_BasicCarrier.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -1104,8 +1104,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "JapanDrones_BasicCarrierBoard_v0.10.kicad_sch",
-        "name": "JapanDrones_BasicCarrierBoard_v0.10",
+        "filename": "JapanDrones_BasicCarrier.kicad_sch",
+        "name": "JapanDrones_BasicCarrier",
         "uuid": "1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b"
       }
     ],
@@ -1115,7 +1115,7 @@
   "sheets": [
     [
       "1d8ae32c-c5d1-4d13-be6c-a12dbaec8c8b",
-      "JapanDrones_BasicCarrierBoard_v0.10"
+      "JapanDrones_BasicCarrier"
     ],
     [
       "6ef01a4e-c8b4-4df0-b7c0-90a52d8409ca",

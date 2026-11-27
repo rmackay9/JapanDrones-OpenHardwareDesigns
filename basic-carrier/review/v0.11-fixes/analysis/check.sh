@@ -1,8 +1,9 @@
 #!/bin/bash
 # check.sh TAG : refill+DRC(parity)+save repo board, dump, analyse
-TAG=$1; W=SCRATCH
-R=BOARD_DIR
-K="/c/Program Files/KiCad/10.0/bin"; B=JapanDrones_BasicCarrierBoard_v0.10.kicad_pcb
+# SCRATCH: work dir holding copies of kdump.py, vbatt.py, mvdd.py, cu.py (default /tmp/bc-check)
+TAG=$1; W=${SCRATCH:-/tmp/bc-check}; WW=$(cygpath -m "$W" 2>/dev/null || echo "$W")
+R=$(cd "$(dirname "$0")/../../.." && pwd); RW=$(cygpath -m "$R" 2>/dev/null || echo "$R")
+K="/c/Program Files/KiCad/10.0/bin"; B=JapanDrones_BasicCarrier.kicad_pcb
 cd $R
 "$K/kicad-cli.exe" pcb drc --schematic-parity --refill-zones --save-board --format json -o $W/$TAG.drc.json $B >/dev/null
 python - $W/$TAG.drc.json $B <<'PY'
@@ -14,5 +15,5 @@ print(f"DRC errors {err} unconnected {len(d['unconnected_items'])} parity {len(d
 print('  ', dict((t,n) for (s,t),n in c.items()))
 a=open(sys.argv[2],'rb').read(); print('  line endings CRLF', a.count(b'\r\n'), 'bare LF', a.count(b'\n')-a.count(b'\r\n'))
 PY
-"$K/python.exe" $W/kdump.py "BOARD_DIR" "SCRATCH" >/dev/null
+"$K/python.exe" "$WW/kdump.py" "$RW/$B" "$WW/$TAG.json" >/dev/null
 cd $W; python vbatt.py $TAG.json 0.2 | head -2; python mvdd.py $TAG.json

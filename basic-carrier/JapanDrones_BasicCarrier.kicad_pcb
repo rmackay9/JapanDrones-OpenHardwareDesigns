@@ -103916,7 +103916,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7e2db227-2081-4790-bc4d-3ce096eed043")
 		(sheetname "/")
-		(sheetfile "JapanDrones_BasicCarrierBoard_v0.10.kicad_sch")
+		(sheetfile "JapanDrones_BasicCarrier.kicad_sch")
 		(units
 			(unit
 				(name "A")

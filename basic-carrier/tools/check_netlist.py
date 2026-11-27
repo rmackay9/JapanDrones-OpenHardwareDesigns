@@ -31,7 +31,7 @@ import zipfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(HERE)
-DEFAULT_SCH = os.path.join(PROJECT_DIR, "JapanDrones_BasicCarrierBoard_v0.10.kicad_sch")
+DEFAULT_SCH = os.path.join(PROJECT_DIR, "JapanDrones_BasicCarrier.kicad_sch")
 DEFAULT_PINMAP = os.path.join(PROJECT_DIR, "..", "cubeorange-df17-pinmapping.ods")
 CUBE_REF = "J1"
 
