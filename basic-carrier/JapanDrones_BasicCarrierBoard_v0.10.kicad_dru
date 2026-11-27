@@ -1,0 +1,13 @@
+(version 1)
+
+# Review v0.11 M6: battery, MVDD and phase copper stays 0.5 mm off the board outline
+# (pads excluded: the motor pads and connector pads are footprint geometry).
+(rule "M6 power copper 0.5 mm from edge"
+	(condition "A.Type != 'Pad' && (A.NetName == 'VBATT' || A.NetName == '/VimDrones*/MVDD' || A.NetName == '/VimDrones*/FD6288_VS*')")
+	(constraint edge_clearance (min 0.5mm)))
+
+# Review v0.11 M6: only GND copper within 3.5 mm of the four corner mounting holes (rule areas CORNER_KO).
+(rule "M6 corner holes GND only"
+	(layer outer)
+	(condition "A.NetName != 'GND' && A.Type != 'Pad' && A.intersectsArea('CORNER_KO')")
+	(constraint disallow track via zone))
