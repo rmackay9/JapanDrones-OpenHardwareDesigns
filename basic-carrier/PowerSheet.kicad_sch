@@ -6180,6 +6180,26 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 81.28) (xy 34.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d29597-1982-4ce0-9630-9b63acecc5d3")
+	)
+	(wire
+		(pts
+			(xy 34.29 135.89) (xy 34.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd8e16d0-6aa9-410d-8e5c-89337a53e54c")
+	)
+	(wire
+		(pts
 			(xy 31.75 177.8)
 			(xy 34.29 177.8)
 		)
@@ -8556,7 +8576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Capacitor:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 55.88 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8567,7 +8587,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" ""
 			(at 55.88 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8622,7 +8642,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C53084452"
+		(property "LCSC" "C89632"
 			(at 55.88 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8721,7 +8741,7 @@
 				)
 			)
 		)
-		(property "MF" "TORCH"
+		(property "MF" "Samsung Electro-Mechanics"
 			(at 55.88 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8732,7 +8752,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1210X7R50V106KN"
+		(property "MPN" "CL31B106KBHNNNE"
 			(at 55.88 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9598,7 +9618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Capacitor:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 55.88 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9609,7 +9629,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" ""
 			(at 55.88 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9664,7 +9684,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C53084452"
+		(property "LCSC" "C89632"
 			(at 55.88 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9763,7 +9783,7 @@
 				)
 			)
 		)
-		(property "MF" "TORCH"
+		(property "MF" "Samsung Electro-Mechanics"
 			(at 55.88 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9774,7 +9794,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1210X7R50V106KN"
+		(property "MPN" "CL31B106KBHNNNE"
 			(at 55.88 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10317,7 +10337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Capacitor:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 45.72 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10328,7 +10348,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" ""
 			(at 45.72 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10383,7 +10403,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C53084452"
+		(property "LCSC" "C89632"
 			(at 45.72 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10482,7 +10502,7 @@
 				)
 			)
 		)
-		(property "MF" "TORCH"
+		(property "MF" "Samsung Electro-Mechanics"
 			(at 45.72 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10493,7 +10513,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1210X7R50V106KN"
+		(property "MPN" "CL31B106KBHNNNE"
 			(at 45.72 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -17057,9 +17077,9 @@
 		)
 	)
 	(symbol
-		(lib_id "EEEFP1V101AL:EEEFP1V101AL")
-		(at 34.29 78.74 90)
-		(mirror x)
+		(lib_id "SparkFun-Capacitor:10uF_1210_50V_20%")
+		(at 34.29 78.74 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17067,7 +17087,7 @@
 		(dnp no)
 		(uuid "c00f076c-343c-4a22-ad55-153ed8bdb3f9")
 		(property "Reference" "C111"
-			(at 30.48 78.1665 90)
+			(at 31.75 74.9362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17077,8 +17097,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EEEFP1V101AL"
-			(at 30.48 80.7065 90)
+		(property "Value" "10uF"
+			(at 31.75 77.4762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17088,8 +17108,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EEEFP1V101AL:CAP_EEEFP1V101AL"
-			(at 34.29 78.74 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 34.29 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17097,10 +17117,64 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
+			(at 34.29 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 34.29 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "CAP-09824"
+			(at 35.56 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 31.75 80.0162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 31.75 82.5562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C89632"
 			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17111,7 +17185,7 @@
 				)
 			)
 		)
-		(property "Description" "Cap Aluminum Lytic 100uF 35V 20% (8 X 10.2mm) SMD 0.08 Ohm 850mA 2000h 105°C Automotive T/R"
+		(property "JLC" ""
 			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17120,10 +17194,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MF" "PANASONIC"
+		(property "AVAILABILITY" ""
 			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17132,10 +17205,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "10.2mm"
+		(property "PACKAGE" ""
 			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17144,10 +17216,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EEEFP1V101AL/Panasonic/view-part/?ref=eda"
+		(property "PRICE" ""
 			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17156,10 +17227,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "PURCHASE-URL" ""
 			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17168,10 +17238,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "PARTREV" "10-Oct-19"
+		(property "COPYRIGHT" ""
 			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17180,10 +17249,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEEFP1V101AL/Panasonic/view-part/?ref=snap"
+		(property "MANUFACTURER_PART_NUMBER" ""
 			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17192,10 +17260,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MP" "EEEFP1V101AL"
+		(property "MFR_NAME" ""
 			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17204,10 +17271,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
+		(property "MF" "Samsung Electro-Mechanics"
 			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17216,22 +17282,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "LCSC" "C1881600"
-			(at 34.29 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "EEE-FP1V101AL"
-			(at 34.29 78.74 90)
+		(property "MPN" "CL31B106KBHNNNE"
+			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17244,10 +17298,10 @@
 		(body_style 1)
 		(in_pos_files yes)
 		(pin "1"
-			(uuid "71503f2f-0125-49e9-a795-6746f285df4b")
+			(uuid "2953b7df-0f29-4d15-ac69-e15eb4aa572d")
 		)
 		(pin "2"
-			(uuid "15a57a87-4b13-4d24-8b89-426e5ee40c33")
+			(uuid "72941014-8343-4713-9518-79c9c07ed17a")
 		)
 		(instances
 			(project "JapanDrones_BasicCarrierBoard_v0.10"
@@ -18286,9 +18340,9 @@
 		)
 	)
 	(symbol
-		(lib_id "EEEFK1C221P:EEEFK1C221P")
-		(at 34.29 133.35 90)
-		(mirror x)
+		(lib_id "SparkFun-Capacitor:10uF_1210_50V_20%")
+		(at 34.29 133.35 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18296,7 +18350,7 @@
 		(dnp no)
 		(uuid "d6989b60-f662-4758-8411-1cf451036b11")
 		(property "Reference" "C30"
-			(at 30.48 132.7765 90)
+			(at 31.75 129.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18306,8 +18360,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EEEFK1C221P"
-			(at 30.48 135.3165 90)
+		(property "Value" "10uF"
+			(at 31.75 132.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18317,8 +18371,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EEEFK1C221P:CAP_EEEFK1C221P"
-			(at 34.29 133.35 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 34.29 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18326,10 +18380,64 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
+			(at 34.29 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 34.29 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "CAP-09824"
+			(at 35.56 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 31.75 134.626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 31.75 137.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C89632"
 			(at 34.29 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -18340,7 +18448,7 @@
 				)
 			)
 		)
-		(property "Description" "220µF 16V Aluminum Electrolytic Capacitors Radial, Can - SMD 2000 Hrs @ 105°C"
+		(property "JLC" ""
 			(at 34.29 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -18349,10 +18457,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MF" "PANASONIC"
+		(property "AVAILABILITY" ""
 			(at 34.29 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -18361,10 +18468,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "6.2mm"
+		(property "PACKAGE" ""
 			(at 34.29 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -18373,10 +18479,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EEE-FK1C221P/Panasonic/view-part/?ref=eda"
+		(property "PRICE" ""
 			(at 34.29 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -18385,10 +18490,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "PURCHASE-URL" ""
 			(at 34.29 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -18397,10 +18501,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "PARTREV" "10-Oct-19"
+		(property "COPYRIGHT" ""
 			(at 34.29 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -18409,10 +18512,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEE-FK1C221P/Panasonic/view-part/?ref=snap"
+		(property "MANUFACTURER_PART_NUMBER" ""
 			(at 34.29 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -18421,10 +18523,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MP" "EEE-FK1C221P"
+		(property "MFR_NAME" ""
 			(at 34.29 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -18433,10 +18534,9 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
+		(property "MF" "Samsung Electro-Mechanics"
 			(at 34.29 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -18445,22 +18545,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "LCSC" "C178534"
-			(at 34.29 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "EEEFK1C221P"
-			(at 34.29 133.35 90)
+		(property "MPN" "CL31B106KBHNNNE"
+			(at 34.29 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18473,10 +18561,10 @@
 		(body_style 1)
 		(in_pos_files yes)
 		(pin "1"
-			(uuid "1d33140b-b921-4989-b892-9a2f3424f86b")
+			(uuid "cd4bbfa3-e381-4b45-a8ed-87971b902333")
 		)
 		(pin "2"
-			(uuid "d8c285be-27f4-4d0f-a1e3-953ba7cf82dc")
+			(uuid "8debc40f-20e2-4104-8640-1184aa2ffaf2")
 		)
 		(instances
 			(project "JapanDrones_BasicCarrierBoard_v0.10"
@@ -19559,7 +19647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Capacitor:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 45.72 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19570,7 +19658,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+		(property "Datasheet" ""
 			(at 45.72 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -19625,7 +19713,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C53084452"
+		(property "LCSC" "C89632"
 			(at 45.72 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -19724,7 +19812,7 @@
 				)
 			)
 		)
-		(property "MF" "TORCH"
+		(property "MF" "Samsung Electro-Mechanics"
 			(at 45.72 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -19735,7 +19823,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1210X7R50V106KN"
+		(property "MPN" "CL31B106KBHNNNE"
 			(at 45.72 78.74 0)
 			(hide yes)
 			(show_name no)
