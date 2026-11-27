@@ -1533,7 +1533,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DF17_2.0_-80DP-0.5V_57_:DF17_2.0_-80DP-0.5V_57_"
+		(symbol "JapanDrones:DF17_1.0H-80DP-0.5V"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1553,7 +1553,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "DF17_2.0_-80DP-0.5V_57_"
+			(property "Value" "DF17(1.0H)-80DP-0.5V(57)"
 				(at -7.62 -58.42 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1564,7 +1564,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "DF17_2.0_-80DP-0.5V_57_:HRS_DF17_2.0_-80DP-0.5V_57_"
+			(property "Footprint" "JapanDrones:Hirose_DF17_1.0H-80DP-0.5V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1695,7 +1695,7 @@
 					(justify bottom)
 				)
 			)
-			(symbol "DF17_2.0_-80DP-0.5V_57__0_0"
+			(symbol "DF17_1.0H-80DP-0.5V_0_0"
 				(polyline
 					(pts
 						(xy -7.62 50.8)
@@ -13401,7 +13401,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DF17_2.0_-80DP-0.5V_57_:DF17_2.0_-80DP-0.5V_57_")
+		(lib_id "JapanDrones:DF17_1.0H-80DP-0.5V")
 		(at 77.47 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13420,7 +13420,7 @@
 				)
 			)
 		)
-		(property "Value" "DF17_2.0_-80DP-0.5V_57_"
+		(property "Value" "DF17(1.0H)-80DP-0.5V(57)"
 			(at 77.47 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13430,7 +13430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DF17_2.0_-80DP-0.5V_57_:HRS_DF17_2.0_-80DP-0.5V_57_"
+		(property "Footprint" "JapanDrones:Hirose_DF17_1.0H-80DP-0.5V"
 			(at 77.47 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -13477,7 +13477,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DF17(2.0)-80DP-0.5V(57)/Hirose/view-part/?ref=eda"
+		(property "Check_prices" "https://www.lcsc.com/product-detail/C354837.html"
 			(at 77.47 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -13489,7 +13489,7 @@
 				(justify bottom)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DF17(2.0)-80DP-0.5V(57)/Hirose/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DF17(1.0H)-80DP-0.5V(57)/Hirose/view-part/"
 			(at 77.47 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -13501,7 +13501,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MP" "DF17(2.0)-80DP-0.5V(57)"
+		(property "MP" "DF17(1.0H)-80DP-0.5V(57)"
 			(at 77.47 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -13525,7 +13525,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MPN" "DF17(2.0)-80DP-0.5V(57)"
+		(property "MPN" "DF17(1.0H)-80DP-0.5V(57)"
 			(at 77.47 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -13536,7 +13536,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3642153"
+		(property "LCSC" "C354837"
 			(at 77.47 76.2 0)
 			(hide yes)
 			(show_name no)

@@ -945,17 +945,6 @@
 			(uuid "942aa830-b227-4f48-b7bd-b81fa2bcefc2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/SMCJ33A/SMCJ33A.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMC.step"
 			(offset
 				(xyz 0 -0 0)
@@ -2020,17 +2009,6 @@
 			(uuid "8b03c062-badb-4d70-b478-0661b95fda9b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM06B-SRSS-TB_LF__SN_/BM06B-SRSS-TB_LF__SN_.step"
-			(offset
-				(xyz 0 0.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical.step"
 			(offset
 				(xyz 0 -0.45 0)
@@ -2504,17 +2482,6 @@
 			(uuid "1bffc4fe-d90d-47c2-aae9-5639fa9d94c0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM06B-GHS-TBT_LF__SN__N_/BM06B-GHS-TBT_LF__SN__N_.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical.step"
 			(offset
 				(xyz 0 1.4 0)
@@ -5187,17 +5154,6 @@
 			(uuid "8405aab4-e4f8-437d-8d94-eab39d064e5a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM03B-GHS-TBT_LF__SN__N_/BM03B-GHS-TBT_LF__SN__N_.step"
-			(offset
-				(xyz 0 -2.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical.step"
 			(offset
 				(xyz 0 -1.95 0)
@@ -5907,17 +5863,6 @@
 			(uuid "a8187baa-00c3-4392-b8d2-6f686d7dccb3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM02B-GHS-TBT_LF__SN__N_/BM02B-GHS-TBT_LF__SN__N_.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.step"
 			(offset
 				(xyz 0 0.375 0)
@@ -12181,17 +12126,6 @@
 			(uuid "263d3d86-f190-4d41-8080-a7bc9ae71465")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Capacitor/C_1206_3216Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -13163,17 +13097,6 @@
 			(uuid "6ba4b694-9c1e-44d8-be7a-58f7ee1162b6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM03B-GHS-TBT_LF__SN__N_/BM03B-GHS-TBT_LF__SN__N_.step"
-			(offset
-				(xyz 0 -2.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical.step"
 			(offset
 				(xyz 0 -1.95 0)
@@ -13856,17 +13779,6 @@
 			(uuid "2aed497d-bc12-4b60-8c9b-cf1800354323")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM03B-GHS-TBT_LF__SN__N_/BM03B-GHS-TBT_LF__SN__N_.step"
-			(offset
-				(xyz 0 -2.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical.step"
 			(offset
 				(xyz 0 -1.95 0)
@@ -18464,17 +18376,6 @@
 			(uuid "168b2086-730a-4a74-b188-6622da7e6992")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Capacitor/C_1206_3216Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -19184,17 +19085,6 @@
 			(uuid "7134d93e-3332-4280-92bf-319e240aa980")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM02B-GHS-TBT_LF__SN__N_/BM02B-GHS-TBT_LF__SN__N_.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.step"
 			(offset
 				(xyz 0 0.375 0)
@@ -19485,17 +19375,6 @@
 			(uuid "38961386-79c7-483a-81ff-6c82879f594e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Resistor.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -19508,7 +19387,7 @@
 			)
 		)
 	)
-	(footprint "DF17_2.0_-80DP-0.5V_57_:HRS_DF17_2.0_-80DP-0.5V_57_"
+	(footprint "JapanDrones:Hirose_DF17_1.0H-80DP-0.5V"
 		(layer "F.Cu")
 		(uuid "784c8479-81d4-4441-8d32-db0fdfa2d093")
 		(at 147.437 95.211 -90)
@@ -19523,7 +19402,7 @@
 				)
 			)
 		)
-		(property "Value" "DF17_2.0_-80DP-0.5V_57_"
+		(property "Value" "DF17(1.0H)-80DP-0.5V(57)"
 			(at 5.875 4.1804 90)
 			(layer "F.Fab")
 			(uuid "f307adf4-cab2-43e6-8909-54464935a38e")
@@ -19569,7 +19448,7 @@
 				)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/DF17(2.0)-80DP-0.5V(57)/Hirose/view-part/?ref=eda"
+		(property "Check_prices" "https://www.lcsc.com/product-detail/C354837.html"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19582,7 +19461,7 @@
 				)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DF17(2.0)-80DP-0.5V(57)/Hirose/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DF17(1.0H)-80DP-0.5V(57)/Hirose/view-part/"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19595,7 +19474,7 @@
 				)
 			)
 		)
-		(property "MP" "DF17(2.0)-80DP-0.5V(57)"
+		(property "MP" "DF17(1.0H)-80DP-0.5V(57)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19621,7 +19500,7 @@
 				)
 			)
 		)
-		(property "MPN" "DF17(2.0)-80DP-0.5V(57)"
+		(property "MPN" "DF17(1.0H)-80DP-0.5V(57)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19634,7 +19513,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3642153"
+		(property "LCSC" "C354837"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20741,18 +20620,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/DF17_2.0_-80DP-0.5V_57_/DF17_2.0_-80DP-0.5V_57_.step"
-			(offset
-				(xyz -9.75 -0.75 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
-		(model "${KIPRJMOD}/3dmodels/df17_plug_25.00x4.70x2.00.wrl"
+		(model "${KIPRJMOD}/3dmodels/df17_plug_25.00x4.70x3.00.wrl"
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -23654,17 +23522,6 @@
 			(uuid "b77a4aaf-2ce6-4068-b83b-ac917e01b4b7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM06B-SRSS-TB_LF__SN_/BM06B-SRSS-TB_LF__SN_.step"
-			(offset
-				(xyz 0 0.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical.step"
 			(offset
 				(xyz 0 -0.45 0)
@@ -25746,17 +25603,6 @@
 			(uuid "bc5d340e-5564-4f25-9212-ac0c96065dd4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM03B-GHS-TBT_LF__SN__N_/BM03B-GHS-TBT_LF__SN__N_.step"
-			(offset
-				(xyz 0 -2.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical.step"
 			(offset
 				(xyz 0 -1.95 0)
@@ -26499,17 +26345,6 @@
 			(uuid "0f7e762c-9d21-48a2-80a4-a14463c7aaf0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM04B-GHS-TBT_LF__SN__N_/BM04B-GHS-TBT_LF__SN__N_.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical.step"
 			(offset
 				(xyz 0 1.4 0)
@@ -28947,17 +28782,6 @@
 			(uuid "5ec5b24a-4fbd-4cbc-b1a9-6a24cc5cab66")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM06B-GHS-TBT_LF__SN__N_/BM06B-GHS-TBT_LF__SN__N_.step"
-			(offset
-				(xyz 0 1 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical.step"
 			(offset
 				(xyz 0 1.4 0)
@@ -30218,17 +30042,6 @@
 			(uuid "e444924d-36b9-4f11-82e5-038f017a7e5d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM03B-GHS-TBT_LF__SN__N_/BM03B-GHS-TBT_LF__SN__N_.step"
-			(offset
-				(xyz 0 -2.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical.step"
 			(offset
 				(xyz 0 -1.95 0)
@@ -31582,17 +31395,6 @@
 			(uuid "7b0f4387-c059-4b37-a64c-ccd44615ffa1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM06B-SRSS-TB_LF__SN_/BM06B-SRSS-TB_LF__SN_.step"
-			(offset
-				(xyz 0 1 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical.step"
 			(offset
 				(xyz 0 -0.45 0)
@@ -32046,17 +31848,6 @@
 			(uuid "e20c1ea6-a75a-45b0-818e-c2276d0911ca")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM04B-GHS-TBT_LF__SN__N_/BM04B-GHS-TBT_LF__SN__N_.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical.step"
 			(offset
 				(xyz 0 1.4 0)
@@ -32832,17 +32623,6 @@
 			(uuid "d777d570-62fa-4844-a07d-43f9023632a5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM06B-SRSS-TB_LF__SN_/BM06B-SRSS-TB_LF__SN_.step"
-			(offset
-				(xyz 0 0.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical.step"
 			(offset
 				(xyz 0 -0.45 0)
@@ -33133,17 +32913,6 @@
 			(uuid "da84e7e5-9798-45e2-ab73-77ee44b88d76")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Resistor.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -33564,17 +33333,6 @@
 			(uuid "b5a52bb2-707d-4f31-a065-7dd50350bdee")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM02B-GHS-TBT_LF__SN__N_/BM02B-GHS-TBT_LF__SN__N_.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical.step"
 			(offset
 				(xyz 0 0.375 0)
@@ -34048,17 +33806,6 @@
 			(uuid "99e66efd-382d-48bb-80d0-c374bf07045c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/BM06B-GHS-TBT_LF__SN__N_/BM06B-GHS-TBT_LF__SN__N_.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical.step"
 			(offset
 				(xyz 0 1.4 0)
@@ -35609,17 +35356,6 @@
 			(uuid "ac81595a-47c2-4db3-a06d-529fda94220e")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Capacitor/C_1206_3216Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -41259,17 +40995,6 @@
 			(uuid "98acddbd-68a8-4dde-833f-8e22d4846463")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -47030,17 +46755,6 @@
 			(uuid "5923cec0-deeb-4c39-93f2-36edd40d528f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Resistor.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -48064,17 +47778,6 @@
 			(uuid "6d9935c7-df1f-4f75-9f08-b53702283d59")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Capacitor/C_1206_3216Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -51631,17 +51334,6 @@
 			(uuid "19d31968-2a62-4d6d-b4c4-20a1c0026fd2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/ASAAIG-24.000MHZ-K-C-S-T/ASAAIG-24.000MHZ-K-C-S-T.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -55067,17 +54759,6 @@
 			(uuid "8ad37d7d-a025-4a23-b3a7-2a214fcfeb4b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -56711,17 +56392,6 @@
 			(uuid "666f713f-9309-4041-a27e-f08b2bf0551e")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Capacitor/C_1206_3216Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -57290,17 +56960,6 @@
 			(uuid "2ccc1f66-58e9-4d24-b38b-bfdd80e163c1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/3dmodels/TJA1051TK_3_1J.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/hvson8_3.00x3.00x1.00.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -58065,17 +57724,6 @@
 			(uuid "6d2937f7-dd3f-4f3e-8a67-0bc0a0abf297")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -60469,17 +60117,6 @@
 			(uuid "31e506f0-a894-4f08-a460-c4cb91d6f0ac")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/ASAAIG-24.000MHZ-K-C-S-T/ASAAIG-24.000MHZ-K-C-S-T.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -61244,17 +60881,6 @@
 			(uuid "700c80b2-b703-4517-b128-546ff6192b1d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -61707,17 +61333,6 @@
 			(uuid "41e91918-577e-45cf-8b4c-0d48f743d170")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/EMZR500ARA331MJA0G/EMZR500ARA331MJA0G.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x10.5.step"
 			(offset
 				(xyz 0 -0 0)
@@ -62865,17 +62480,6 @@
 			(uuid "f8cbf7c3-40bc-4405-ad72-6552e89bcc31")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/3dmodels/FD6288Q--3DModel-STEP-510211.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.step"
 			(offset
 				(xyz 0 -0 0)
@@ -64644,17 +64248,6 @@
 			(uuid "dd37ec49-a2c8-4fe2-bc99-bf9e9f1ca2a1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SOD-123FL.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
 			(offset
 				(xyz 0 -0 0)
@@ -65114,17 +64707,6 @@
 			(uuid "f8dab478-5c17-47bd-8cb0-d0623492e821")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -66633,17 +66215,6 @@
 			(uuid "afea2aff-a2e1-4afc-8306-d55e29666bed")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -73561,17 +73132,6 @@
 			(uuid "53149c93-a3b5-4f9d-8669-134fff64c827")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -80170,17 +79730,6 @@
 			(uuid "0b60cf39-7e4c-426e-b63d-650cae3420d7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Resistor.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -80640,17 +80189,6 @@
 			(uuid "3757bc21-cce3-4516-a43d-3947f6a36539")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -81524,17 +81062,6 @@
 			(uuid "bd67eccf-858e-4804-8470-91a135db83af")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/3dmodels/TJA1051TK_3_1J.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/hvson8_3.00x3.00x1.00.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -82863,17 +82390,6 @@
 			(uuid "2b59fa3a-e813-4a0b-8e0a-0ef69b618c30")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Capacitor/C_1206_3216Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -84128,17 +83644,6 @@
 			(uuid "a7ad2e3b-f84b-431d-b890-20a7059c0189")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -87355,17 +86860,6 @@
 			(uuid "817f6d74-b7d5-480b-8a8f-06b29021a6e4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Resistor.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -88957,17 +88451,6 @@
 			(uuid "2f762539-65df-4961-ba7b-b95bec8692f3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/3dmodels/0451005.MRL.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/fuse2410_7.47x3.16x2.36.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -89613,17 +89096,6 @@
 			(uuid "6185d0bf-4934-4932-a81a-56e8c01ff810")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/3dmodels/0451005.MRL.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/fuse2410_7.47x3.16x2.36.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -91471,17 +90943,6 @@
 			(uuid "856e0b06-ecf1-4831-9154-b8c71f6eaab4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/XT90PW-F/XT90PW-F.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 -180)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/xt90pw_24.50x25.40x10.20.wrl"
 			(offset
 				(xyz 0 -1.1 0)
@@ -92551,17 +92012,6 @@
 			(uuid "c89b2644-0ba1-4b32-8809-6f12975c195c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -93168,17 +92618,6 @@
 			(uuid "a5c362af-55cd-4c31-b790-7b6f6498b2b2")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Resistor.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -94272,17 +93711,6 @@
 			(uuid "0088157d-a3fd-4454-b60c-97c45c482845")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/3dmodels/TJA1051TK_3_1J.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/hvson8_3.00x3.00x1.00.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -96679,17 +96107,6 @@
 			(uuid "0218a907-3acf-4d24-8c58-f488c8038b85")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -97258,17 +96675,6 @@
 			(uuid "2a32b2d8-f7cf-4d60-b65e-424289209840")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/3dmodels/TJA1051TK_3_1J.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/hvson8_3.00x3.00x1.00.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -97727,17 +97133,6 @@
 			(uuid "cb10d131-1db5-4038-b4f2-eb94f9f6a4d5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -100771,17 +100166,6 @@
 			(uuid "d41a81e8-39ec-4c60-bb1c-11ba154cb67a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -102586,17 +101970,6 @@
 			(uuid "449c3283-c446-4f86-a71d-eaf5a31e9b3d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -103056,17 +102429,6 @@
 			(uuid "8865e884-7c56-4634-b10b-ff8ba99188b7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -104697,17 +104059,6 @@
 			(uuid "250d37f1-6630-428d-9498-215a3d63e6c7")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Resistor/R_1206_3216Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -107285,17 +106636,6 @@
 			(uuid "65c3f49d-289a-441f-8e52-dd9c62367c2f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -107755,17 +107095,6 @@
 			(uuid "3894cae7-caf0-425a-8e3a-2c06ddb7d0fe")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -110843,17 +110172,6 @@
 			(uuid "6db9f167-dcad-47a8-a16c-345b06132453")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/ASAAIG-24.000MHZ-K-C-S-T/ASAAIG-24.000MHZ-K-C-S-T.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -114931,17 +114249,6 @@
 			(uuid "096db341-dc67-41c8-8f4a-5740c047114e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/ASAAIG-24.000MHZ-K-C-S-T/ASAAIG-24.000MHZ-K-C-S-T.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2016-4Pin_2.0x1.6mm.step"
 			(offset
 				(xyz 0 0 0)
@@ -115401,17 +114708,6 @@
 			(uuid "20512aab-2a78-49e2-9e82-d2e16b7e6ac7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -116481,17 +115777,6 @@
 			(uuid "d35575cf-b60a-4cd2-8a5b-0fb3c6f536f9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -118586,17 +117871,6 @@
 			(uuid "675be23e-fa09-44d6-9c55-4ced8697d84a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/3dmodels/FD6288Q--3DModel-STEP-510211.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.step"
 			(offset
 				(xyz 0 -0 0)
@@ -120118,17 +119392,6 @@
 			(uuid "eff67e72-2dd5-49fc-8f2e-d89b8aa48591")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Resistor.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 -0 0)
@@ -120971,17 +120234,6 @@
 			(uuid "b890426e-b0e7-476d-b27b-97a43e6a39d1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/3dmodels/FD6288Q--3DModel-STEP-510211.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.step"
 			(offset
 				(xyz 0 -0 0)
@@ -121441,17 +120693,6 @@
 			(uuid "ebc9575e-d496-4c2e-95a4-7f2cc2b6e255")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -121911,17 +121152,6 @@
 			(uuid "9f1e8ad5-2311-4910-9d6f-a63bb3469de9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -126314,17 +125544,6 @@
 			(uuid "088520f2-b59f-4b58-8de8-af1914743edf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/3dmodels/FD6288Q--3DModel-STEP-510211.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.step"
 			(offset
 				(xyz 0 -0 0)
@@ -128500,17 +127719,6 @@
 			(uuid "aab4f6c9-3354-42c5-9e16-495559e209f4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/D_SOD-123FL.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
 			(offset
 				(xyz 0 -0 0)
@@ -129275,17 +128483,6 @@
 			(uuid "2de12f56-294b-4f06-9e89-67ad9ff0c224")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -132961,17 +132158,6 @@
 			(uuid "e93d5407-7b94-4d3d-90a9-60b7c367a2c3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
@@ -133736,17 +132922,6 @@
 			(uuid "a556d075-c750-43ac-ab83-d56416a65fa0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD_CUSTOM}/TPHR8504PL_L1Q/TPHR8504PL_L1Q.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 90)
-			)
-		)
 		(model "${KIPRJMOD}/3dmodels/sop_advance_5.00x5.00x0.95.wrl"
 			(offset
 				(xyz 0 -0 0)
