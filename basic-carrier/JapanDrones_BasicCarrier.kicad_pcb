@@ -10,7 +10,7 @@
 	(title_block
 		(title "Basic Carrier Board")
 		(date "2026-11-23")
-		(rev "v0.11")
+		(rev "v0.11-dev")
 		(company "Japan Drones")
 		(comment 1 "Designed by : ${Designer}")
 	)
