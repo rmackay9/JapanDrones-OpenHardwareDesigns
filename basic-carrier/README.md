@@ -32,8 +32,8 @@ Open items are listed at the end of `docs/BRINGUP.md`.
 | `3dmodels/` | Generated placeholder 3D models for parts without a KiCad stock model |
 | `fab/<rev>/` | Exactly what was sent to the fab for a release: Gerbers + drill zip, BOM, positions, IPC netlist, schematic PDF (`fab/v0.10/` here; later releases on their release branches) |
 | `fab/v0.11-wip/` | STEP of the assembled board for mechanical CAD |
-| `docs/` | PCBWay order notes and the bring-up checklist |
-| `tools/` | `make_fab.py` (fab outputs), `make_pcbway_fab.py` (BOM and positions), `check_netlist.py` (Cube DF17 pin-mapping check; pass `--pinmap` with the CubeOrange pin-mapping spreadsheet, which is not in this repo), STEP and 3D-model helpers |
+| `docs/` | PCBWay order notes, the bring-up checklist, and `cube-df17-pinmap.csv`: the Cube's 80-pin DF17 pinout (pin, name, direction and description from CubePilot's public [interface specification](https://docs.cubepilot.org/autopilot/the-cube/introduction/interface-specifications#the-cube-80-pin-df17-connector-long-term-standard)) plus how this board uses each pin |
+| `tools/` | `make_fab.py` (fab outputs), `make_pcbway_fab.py` (BOM and positions), `check_netlist.py` (netlist sanity checks and the Cube DF17 pin check against `docs/cube-df17-pinmap.csv`), STEP and 3D-model helpers |
 | `review/` | Design reviews of v0.11, the fixes made for them, and the scripts and renders they used |
 
 No external libraries are needed: every symbol and footprint is embedded in the schematic and PCB, the project libraries are referenced with `${KIPRJMOD}`, and the 3D models are KiCad 10 stock models (`${KICAD10_3DMODEL_DIR}`) or the placeholders in `3dmodels/`.

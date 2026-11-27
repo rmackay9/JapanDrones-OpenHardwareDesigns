@@ -1,0 +1,81 @@
+pin,name,direction,description,board_use
+1,FMU_SWDIO,I/O,FMU serial wire debug I/O,NC
+2,FMU_LED_AMBER,O,"Boot error LED (drive only, controlled by FET)",NC
+3,FMU_SWCLK,O,FMU serial wire debug clock,NC
+4,I2C_2_SDA,I/O,I2C Serial Data Tx/Rx,NC
+5,EXTERN_CS,O,"Chip select for external SPI (NC, just for debugging)",NC
+6,I2C_2_SCL,O,I2C Serial Clock Signal,NC
+7,FMU_!RESET,I,Reset pin for the FMU,NC
+8,PROT_SPARE_1,,Spare,NC
+9,VDD_SERVO_IN,I,Power for last resort I/O failsafe,NC
+10,PROT_SPARE_2,,Spare,NC
+11,EXTERN_DRDY,I,"Interrupt pin for external SPI (NC, just for debugging)",NC
+12,SERIAL_5_RX,I,UART 5 RX (Receive Data),NC
+13,GND,,System GND,GND
+14,SERIAL_5_TX,O,UART 5 TX (Transmit Data),NC
+15,GND,,System GND,GND
+16,SERIAL_4_RX,I,UART 4 RX (Receive Data),NC
+17,SAFETY,,Safety button input,NC
+18,SERIAL_4_TX,O,UART 4 TX (Transmit Data),NC
+19,VDD_3V3_SPEKTRUM_EN,O,Enable for the Spektrum voltage regulator,NC
+20,SERIAL_3_RX,I,UART 3 RX (Receive Data),NC
+21,PRESSURE_SENS_IN,AI,"Analogue Signal port, for pressure sensor, Laser range finder, or Sonar",NC
+22,SERIAL_3_TX,O,UART 3 TX (Transmit Data),NC
+23,AUX_BATT_VOLTAGE_SENS,AI,Voltage sense for Aux battery input,NC
+24,ALARM,O,Buzzer PWM Signal,BUZZER (JST-GH 2-pin for buzzer)
+25,AUX_BATT_CURRENT_SENS,AI,Current sense for Aux battery input,NC
+26,IO_VDD_3V3,I,"IO chip power, pinned through for debug",NC
+27,VDD_5V_PERIPH_EN,O,Enable voltage supply for Peripherals,
+28,IO_LED_SAFET_PROT,O,IO-LED_SAFETY (safety LED) pinned out for IRIS,NC
+29,VBUS,I,USB VBus (VDD),
+30,SERIAL_2_RTS,,UART 2 RTS (Request To Send),Serial2 RTS JST-GH 6-pin
+31,OTG_DP1,I/O,USB Data+ (D),USB Data+ JST-GH 4-pin
+32,SERIAL_2_CTS,,UART 2 CTS (Clear To Send),Serial2 CTS JST-GH 6-pin
+33,OTG_DM1,I/O,USB Data- (M),USB Data- JST-GH 4-pin
+34,SERIAL_2_RX,I,UART 2 RX (Receive Data),Serial2 RX JST-GH 6-pin
+35,I2C_1_SDA,I/O,I2C Serial Data Tx/Rx,NC
+36,SERIAL_2_TX,O,UART 2 TX (Transmit Data),Serial2 TX JST-GH 6-pin
+37,I2C_1_SCL,O,I2C Serial Clock Signal,NC
+38,SERIAL_1_RX,I,UART 1 RX (Receive Data),Serial1 RX JST-GH 6-pin
+39,CAN_L_2,I/O,FMU CAN bus Low Signal Driver,CAN2 Low (connect to ESCs)
+40,SERIAL_1_TX,O,UART 1 TX (Transmit Data),Serial1 TX JST-GH 6-pin
+41,CAN_H_2,I/O,FMU CAN bus High Signal Driver,CAN2 High (connect to ESCs)
+42,SERIAL_1_RTS,,UART 1 RTS (Request To Send),Serial1 RTS JST-GH 6-pin
+43,VDD_5V_PERIPH_OC,I,Error state message from Peripheral power supply,
+44,SERIAL_1_CTS,,UART 1 CTS (Clear To Send),Serial1 CTS JST-GH 6-pin
+45,VDD_5V_HIPOWER_OC,I,Error state message from High power Peripheral power supply,
+46,IO_USART_1_TX,O,I/O USART 1 TX,NC
+47,BATT_VOLTAGE_SENS_PROT,AI,Voltage sense from main battery,
+48,IO_USART1_RX_SPECTRUM_DSM,O,Signal from Spectrum receiver,NC
+49,BATT_CURRENT_SENS_PROT,AI,Current sense from main battery,
+50,FMU_CH1_PROT,O,FMU PWM output channel 1,JST-GH 3-pin for LED1
+51,SPI_EXT_MOSI,O,"External SPI, for debug only",NC
+52,FMU_CH2_PROT,O,FMU PWM output channel 2,JST-GH 3-pin for LED2
+53,VDD_SERVO,I,"VDD_Servo, for monitoring servo bus",NC
+54,FMU_CH3_PROT,O,FMU PWM Output Channel 3,JST-GH 3-pin for LED3
+55,VDD_BRICK_VALID,I,Main Power valid signal,
+56,FMU_CH4_PROT,O,FMU PWM Output Channel 4,JST-GH 3-pin for LED4
+57,VDD_BACKUP_VALID,I,Backup Power valid Signal,
+58,FMU_CH5_PROT,O,FMU PWM Output Channel 5,JST-GH 3-pin for LED5
+59,VBUS_VALID,I,USB bus valid signal,
+60,FMU_CH6_PROT,O,FMU PWM Output Channel 6,NC
+61,VDD_5V_IN_PROT,I,Main power (5V) into FMU from power selection,VCC 5.2V (from 5.2V regulator)
+62,PPM_SBUS_PROT,I,PPM / S.Bus Signal Input,3-pin header from RC input
+63,VDD_5V_IN_PROT,I,Main power (5V) into FMU from power selection,VCC 5.2V (from 5.2V regulator)
+64,S.BUS_OUT,O,S.Bus Signal Output,NC
+65,IO_VDD_5V5,O,IO VDD 5.5 V,NC
+66,IO_CH8_PROT,O,I/O PWM Output Channel 8,JST-GH 2-pin for fan
+67,SPI_EXT_MISO,I,"External SPI, for Debug only",NC
+68,IO_CH7_PROT,O,I/O PWM Channel 7,NC
+69,IO_SWDIO,I/O,I/O serial wire debug,NC
+70,IO_CH6_PROT,O,I/O PWM Output Channel 6,NC
+71,IO_SWCLK,O,I/O Serial Wire Debug Clock,NC
+72,IO_CH5_PROT,O,I/O PWM Output Channel 5,NC
+73,SPI_EXT_SCK,O,"External SPI, for Debug only",NC
+74,IO_CH4_PROT,O,I/O PWM Output Channel 4,NC
+75,IO_!RESET,I,I/O Reset Pin,NC
+76,IO_CH3_PROT,O,I/O PWM Output Channel 3,NC
+77,CAN_L_1,I/O,FMU CAN bus Low Signal Driver,CAN1 Low JST-GH 4-pin (for GPS)
+78,IO_CH2_PROT,O,I/O PWM Output Channel 2,NC
+79,CAN_H_1,I/O,FMU CAN bus High Signal Driver,CAN1 High JST-GH 4-pin (for GPS)
+80,IO_CH1_PROT,O,I/O PWM Output Channel 1,

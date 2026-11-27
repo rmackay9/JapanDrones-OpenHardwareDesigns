@@ -4,11 +4,13 @@
 Catches the class of mistake that ERC/DRC cannot: nets that are "connected"
 but join pins whose *functions* disagree (e.g. CAN_H to CANL, TX to TX), plus
 a few electrical smells. Also prints per-connector pin tables and compares the
-Cube DF17 connector (J1) against the pin-mapping spreadsheet.
+Cube DF17 connector (J1) against the pin map in docs/cube-df17-pinmap.csv.
+The pin names come from CubePilot's public interface specification (docs.cubepilot.org,
+"The Cube 80 pin DF17 connector"); the board_use column is this board's own plan.
 
 Usage:
     python tools/check_netlist.py [--sch FILE.kicad_sch | --netlist FILE.xml]
-                                  [--pinmap ../cubeorange-df17-pinmapping.ods]
+                                  [--pinmap docs/cube-df17-pinmap.csv | other.ods]
                                   [--out report.md]
 
 With --sch (the default is the project's root schematic) the netlist is
@@ -32,7 +34,7 @@ import zipfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(HERE)
 DEFAULT_SCH = os.path.join(PROJECT_DIR, "JapanDrones_BasicCarrier.kicad_sch")
-DEFAULT_PINMAP = os.path.join(PROJECT_DIR, "..", "cubeorange-df17-pinmapping.ods")
+DEFAULT_PINMAP = os.path.join(PROJECT_DIR, "docs", "cube-df17-pinmap.csv")
 CUBE_REF = "J1"
 
 # Alternate functions of MCU pins used on this board (the symbols only carry
@@ -87,6 +89,15 @@ RX = r"(^|[^A-Z])(RXD?|U?S?ART\d*_RX)(\d*)([^A-Z]|$)"
 GND_NET = r"(^|[^A-Z])(GND|VSS|AGND|PGND)([^A-Z]|$)"
 RAIL_NET = r"^[+-]|VBATT|VCC|VDD|VBUS|^\+?\d+V\d*$|3V3|5V2|^POW(ER)?_SEL$"
 GND_PIN = r"^(GND|VSS|AGND|PGND|DGND)\d*$"
+
+
+def read_pinmap(path):
+    """Rows of the pin map: pin, name, direction, description, board use (.csv or .ods)."""
+    if path.lower().endswith(".csv"):
+        import csv
+        with open(path, newline="", encoding="utf-8") as f:
+            return [r for r in csv.reader(f)]
+    return read_ods(path)
 
 
 def read_ods(path):
@@ -253,7 +264,7 @@ def connector_tables(des):
 
 
 def compare_cube(des, rows):
-    """Compare J1 against the DF17 pin-mapping spreadsheet."""
+    """Compare J1 against the DF17 pin map."""
     out, issues = [], []
     sheet = {}
     for r in rows:
@@ -308,9 +319,9 @@ def main():
            f"Netlist: {len(des.nets)} nets, {len(des.comps)} components.", ""]
     cube_rows, cube_issues = [], []
     if a.pinmap and os.path.exists(a.pinmap):
-        cube_rows, cube_issues = compare_cube(des, read_ods(a.pinmap))
+        cube_rows, cube_issues = compare_cube(des, read_pinmap(a.pinmap))
     else:
-        rep.append(f"(Pin-mapping sheet not found at {a.pinmap}; J1 comparison skipped.)\n")
+        rep.append(f"(Pin map not found at {a.pinmap}; J1 comparison skipped.)\n")
 
     findings = check(des)
     rep.append("## Findings\n")
@@ -322,7 +333,7 @@ def main():
         for sev, rule, net, msg in sorted(findings, key=lambda f: (f[0] != "ERROR", f[1], f[2])):
             rep.append(f"| {sev} | {rule} | {base(net)} | {msg} |")
     if cube_rows:
-        rep += ["", "## J1 (Cube DF17) vs cubeorange-df17-pinmapping.ods", ""]
+        rep += ["", f"## J1 (Cube DF17) vs {os.path.basename(a.pinmap)}", ""]
         rep.append(f"{len(cube_issues)} pin(s) need a look.\n")
         rep += cube_rows
     rep += ["", "## Connector pin tables"] + connector_tables(des)
