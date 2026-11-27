@@ -1,6 +1,7 @@
 import numpy as np, cv2
 from cu import *
-b=Board('now.json',res=40)
+import sys
+b=Board(sys.argv[1]+'.json',res=40)
 # other-net copper on every layer (including zone fills) -> distance map; a through via needs clearance on all 6 layers
 other=np.zeros((b.H,b.W),np.uint8)
 notgnd=lambda n:n!='GND'
@@ -21,7 +22,7 @@ for L in LAYERS:
     ids,x,y=N.node_xy(L); X[ids]=x; Y[ids]=y
 bad=comp!=root; u,cnt=np.unique(comp[bad],return_counts=True)
 for uu,c in sorted(zip(u,cnt),key=lambda t:-t[1]):
-    if c*N.h**2<5: break
+    if c*N.h**2<1: break
     s=np.nonzero(comp==uu)[0]; L=LAYERS[N.layer_of[s[0]]]
     r=((Y[s]-b.y0)*b.res).astype(int); cc=((X[s]-b.x0)*b.res).astype(int)
     dd=dist[r,cc]; i=np.argmax(dd)

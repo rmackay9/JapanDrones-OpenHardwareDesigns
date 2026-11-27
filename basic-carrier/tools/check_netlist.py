@@ -17,7 +17,7 @@ With --sch (the default is the project's root schematic) the netlist is
 exported with kicad-cli first. Only the Python standard library is used.
 
 Findings are heuristics: each one is a prompt for a human to look, and some
-will be false positives. Keep the review notes (review/*.md) as the record of
+will be false positives. Keep the review notes (reviews/*.md) as the record of
 which ones were checked and why they are OK.
 """
 import argparse

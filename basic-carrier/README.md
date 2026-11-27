@@ -1,6 +1,6 @@
 # JapanDrones BasicCarrier
 
-![BasicCarrier v0.11-dev](review/v0.11-shrink2/iso.png)
+![BasicCarrier v0.11-dev](docs/iso.png)
 
 Carrier board for a CubePilot Cube (CubeOrange / CubeOrange+, DF17 80-pin connector) used on the JapanDrones aerial photography copter.
 It carries the Cube and four ESCs (one per corner), so a quadcopter needs no separate ESCs or power board.
@@ -15,7 +15,7 @@ Designed by Swapnil Marathe for JapanDrones.
 
 ## Status
 
-**v0.11-dev: in review, not manufactured yet.** The layout was reviewed twice by AI (`review/`) and is now with human reviewers.
+**v0.11-dev: in review, not manufactured yet.** The layout was reviewed twice by AI (`reviews/`) and is now with human reviewers.
 The order notes and bring-up checklist for the coming release are in `docs/ORDER-NOTES.md` and `docs/BRINGUP.md`.
 v0.10 was built by PCBWay in September 2026. Its known problems (battery connector gender, CAN_H/CAN_L swap, fan on 5 V, quiet buzzer) are fixed in v0.11-dev.
 Open items are listed at the end of `docs/BRINGUP.md`.
@@ -32,9 +32,9 @@ Open items are listed at the end of `docs/BRINGUP.md`.
 | `3dmodels/` | Generated placeholder 3D models for parts without a KiCad stock model |
 | `fab/<rev>/` | Exactly what was sent to the fab for a release: Gerbers + drill zip, BOM, positions, IPC netlist, schematic PDF (`fab/v0.10/` here; later releases on their release branches) |
 | `fab/v0.11-wip/` | STEP of the assembled board for mechanical CAD |
-| `docs/` | PCBWay order notes, the bring-up checklist, and `cube-df17-pinmap.csv`: the Cube's 80-pin DF17 pinout (pin, name, direction and description from CubePilot's public [interface specification](https://docs.cubepilot.org/autopilot/the-cube/introduction/interface-specifications#the-cube-80-pin-df17-connector-long-term-standard)) plus how this board uses each pin |
-| `tools/` | `make_fab.py` (fab outputs), `make_pcbway_fab.py` (BOM and positions), `check_netlist.py` (netlist sanity checks and the Cube DF17 pin check against `docs/cube-df17-pinmap.csv`), STEP and 3D-model helpers |
-| `review/` | Design reviews of v0.11, the fixes made for them, and the scripts and renders they used |
+| `docs/` | Renders (`top.png`, `bottom.png`, `iso.png`, `iso-bottom.png`), PCBWay order notes, the bring-up checklist, and `cube-df17-pinmap.csv`: the Cube's 80-pin DF17 pinout (pin, name, direction and description from CubePilot's public [interface specification](https://docs.cubepilot.org/autopilot/the-cube/introduction/interface-specifications#the-cube-80-pin-df17-connector-long-term-standard)) plus how this board uses each pin |
+| `tools/` | `make_fab.py` (fab outputs), `make_pcbway_fab.py` (BOM and positions), `check_netlist.py` (netlist sanity checks and the Cube DF17 pin check against `docs/cube-df17-pinmap.csv`), STEP and 3D-model helpers, and `analysis/`: the DC copper model used for the design reviews |
+| `reviews/` | One design review report per release (with its figures), plus the v0.10 -> v0.11 change list. Reviews of individual changes happen in GitHub pull requests; open items are GitHub issues |
 
 No external libraries are needed: every symbol and footprint is embedded in the schematic and PCB, the project libraries are referenced with `${KIPRJMOD}`, and the 3D models are KiCad 10 stock models (`${KICAD10_3DMODEL_DIR}`) or the placeholders in `3dmodels/`.
 
